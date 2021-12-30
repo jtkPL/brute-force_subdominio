@@ -1,4 +1,4 @@
-# brute-force_subdominio
+# Brute force subdomain 
 
 Script permite enumerar subdominios de um domínio especifico através 
 de força bruta, Escrito em Bash Script.
@@ -11,8 +11,9 @@ na segundo argumento na linha de comando.
 2° cd brute-force_subdominio
 
 # Executando o Script  
-depois do diretório clonado, basta executar o Script, no premeiro  
+Dentro do díretório clonado, basta executar o Script, no premeiro  
 argumento e colocado o dominio e no segundo a wordlist.  
+
 3° bash sub_domain.sh <domain> <wordlist> 
 
 
