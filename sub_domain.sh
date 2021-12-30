@@ -11,10 +11,13 @@ fi
 
 if [ "$1" = "" -o "$2" = "" -o "$verify_domain" = "NXDOMAIN" ]
 then
-    echo "usage: ./sub_domain <domain> <wordlist>"
+    echo "usage: bash sub_domain.sh <domain> <wordlist>"
     echo ""
 else
     echo "" > file.txt
+
+    i=$(cat $2 | wc -l)
+    n=0
 
     for prefix_sub in $(cat $2)
     do
@@ -29,5 +32,8 @@ else
             fi
             
         fi
+        ((n++))
+        echo "[$n]de[$i]"
     done 
 fi
+
