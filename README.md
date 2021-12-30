@@ -3,7 +3,7 @@
 Script permite enumerar subdominios de um domínio especifico através 
 de força bruta, Escrito em Bash Script.
 
-No repositório comtém uma wordlist contendo 67 palavraspodendo usar  
+No repositório comtém uma wordlist contendo 67 palavras podendo usar  
 qualquer outra de sua preferência, apenas especificando sua wordlist  
 na segundo argumento na linha de comando.
 
